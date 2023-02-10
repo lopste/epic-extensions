@@ -16,14 +16,10 @@ class EpicExtension {
         }
       ]
     }
-    
-    getValue(args) {
-      
-    }
   }
   
-  epicness() {
-    return "VERY EPIC";
+  getValue(args) {
+    return this.dictionaries[args.DICT]?.[args.VAL];
   }
 }
 
