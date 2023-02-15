@@ -6,7 +6,7 @@ class EpicExtension {
       name: "Dictionaries",
       blocks: [
         {
-          opcode: "getValue",
+          opcode: "getDictValue",
           blockType: Scratch.BlockType.REPORTER,
           text: "Get key [VAL] of [DICT]",
           arguments: {
@@ -18,7 +18,7 @@ class EpicExtension {
     }
   }
   
-  getValue(args) {
+  getDictValue(args) {
     return this.dictionaries[args.DICT]?.[args.VAL];
   }
 }
