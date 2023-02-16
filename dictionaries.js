@@ -2,7 +2,7 @@ class EpicExtension {
   getInfo() {
     this.dictionaries = {}
     return {
-      id: "vercte-dictionaries",
+      id: "VercteDictionaries",
       name: "Dictionaries",
       blocks: [
         {
